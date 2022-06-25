@@ -1,0 +1,205 @@
+		.text{
+			color: #4CAF50;
+		}
+		#nav:hover{
+			color:black;
+			background-color: #4CAF50;
+			
+		}
+		.button {
+  			color: white;
+  			text-align: center;
+  			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+		}
+		.cen{
+			height:50vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+		}
+		.hi{
+			background-image: url("https://media.gettyimages.com/videos/soft-white-background-video-id1132438176?s=640x640");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.test{
+			border:1px solid;
+			margin:auto;
+		}
+		.skill-bar{
+			margin:auto;
+			width: 100%;
+			background: #fff;
+			border-radius: 10px;
+			padding:25px 30px;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+		}
+		.skill-bar .bar{
+			margin: 20px 0;
+		}
+		.skill-bar .bar .info span{
+			font-size: 17px;
+			font-weight: 500;
+		}
+		.skill-bar .bar .progress-line{
+			position: relative;
+			height: 10px;
+			width: 100%;
+			border-radius: 10px;
+			background: #f0f0f0;
+		}
+		.skill-bar .progress-line span{
+			height: 100%;
+			width: 80%;
+			border-radius: 10px;
+			background: #4CAF50;
+			position: absolute;
+		}
+		.progress-line.c span{
+			width: 80%;
+		}
+		.progress-line.cpp span{
+			width: 90%;
+		}
+		.progress-line.java span{
+			width: 60%;
+		}
+		.progress-line.html span{
+			width: 85%;
+		}
+		.progress-line.css span{
+			width: 60%;
+		}
+		.progress-line.sql span{
+			width: 65%;
+		}
+		.bar .progress-line span::after{
+			position: absolute;
+			
+			right:0;
+			top:-28px;
+			color: #fff;
+			font-size: 12px;
+			font-weight: 500;
+			background: #000;
+			padding: 1px 8px;
+			border-radius: 3px;
+		}
+		.progress-line.c span::after{
+			content: "80%";
+		}
+		.progress-line.cpp span::after{
+			content: "90%";
+		}
+		.progress-line.java span::after{
+			content: "60%";
+		}
+		.progress-line.html span::after{
+			content: "85%";
+		}
+		.progress-line.css span::after{
+			content: "60%";
+		}
+		.progress-line.sql span::after{
+			content: "65%";
+		}
+		<!--owl-->
+		.wrapper{
+			width: 100%;
+		}
+		.wrapper .carousel{
+			max-width: 1200px;
+			margin: auto;
+			padding: 0 30px;
+		}
+		.carousel .card{
+			line-height: 25-px;
+			text-align: center;
+			color: #4CAF50;
+			font-size: 30px;
+			font-weight: 600;
+			margin: 20px 0;
+			border-radius: 10px;
+			box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+			background: #000;
+		}
+		.owl-dots{
+			text-align: center;
+			margin-top: 20px;
+		}
+		.owl-dot{
+			height: 15px;
+			width: 13px;
+			border-radius: 25px;
+			cursor: pointer;
+			outline: none;
+			margin: 5px;
+			border: 2px solid #4CAF50!important;
+		}
+		.owl-dot:hover{
+			background: #4CAF50!important;
+		}
+		.he{
+			color: black;
+  			text-align: center;
+  			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+		}
+		.foot{
+			background: #4CAF50;
+		}
+		/* contact section styling */
+		form .fields{
+			display: flex;
+		}
+		form .textarea{
+			height: 80px;
+   		 	width: 100%;
+		}
+		form .textarea textarea{
+			height: 100%;
+    		width: 100%;
+    		border: 1px solid lightgrey;
+    		border-radius: 6px;
+    		outline: none;
+    		padding: 0 15px;
+    		font-size: 17px;
+    		font-family: 'Poppins', sans-serif;
+    		transition: all 0.3s ease;
+		}
+		form .textarea textarea:focus{
+			border-color: #4CAF50;
+		}
+		form .textarea textarea{
+			padding-top: 10px;
+			resize: none;
+		  }
+		  form .button-area{
+			display: flex;
+			align-items: center;
+		  }
+		  .button-area{
+			color: #fff;
+			display: block;
+			width: 160px!important;
+			height: 45px;
+			outline: none;
+			font-size: 18px;
+			font-weight: 500;
+			border-radius: 6px;
+			cursor: pointer;
+			flex-wrap: nowrap;
+			background: crimson;
+			border: 2px solid crimson;
+			transition: all 0.3s ease;
+		  }
+		  form .button-area button:hover{
+			color: crimson;
+			background: none;
+		  }
