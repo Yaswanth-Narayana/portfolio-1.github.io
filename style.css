@@ -21,6 +21,11 @@
 			justify-content: center;
 			
 		}
+		.c1{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 		.hi{
 			background-image: url("https://media.gettyimages.com/videos/soft-white-background-video-id1132438176?s=640x640");
 			background-repeat: no-repeat;
@@ -202,4 +207,123 @@
 		  form .button-area button:hover{
 			color: crimson;
 			background: none;
+		  }
+.skill{
+			width: 160px;
+			height: 160px;
+			position: relative;
+		  }
+		  .outer{
+			height: 160px;
+			width : 160px;
+			border-radius: 50%;
+		
+			padding :20px;
+			box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+						-6px -6px 10px -1px rgba(255,255,255,0.7)
+		  }
+		  .inner{
+			height: 120px;
+			width : 120px;
+			border-radius: 50%;
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+						inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+						-0.5 -0.5 0px rgba(255,255,255,1),
+						0.5 0.5 0px rgba(0,0,0,0.15),
+						0px 12px 10px -10px rgba(0,0,0,0.05);
+		  }
+
+		  #num{
+				font-weight: 600px;
+				color:#4CAF50;
+		  }
+		  
+		  .circle-html{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim1 2s linear forwards;
+		  }
+		  .circle-c{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim2 2s linear forwards;
+		  }
+		  .circle-cpp{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim3 2s linear forwards;
+		  }
+		  .circle-java{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim4 2s linear forwards;
+		  }
+		  .circle-css{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim5 2s linear forwards;
+		  }
+		  .circle-mysql{
+			fill:none;
+			stroke:#4CAF50;
+			stroke-width:20px ;
+			stroke-dasharray:  472;
+			stroke-dashoffset: 472;
+			animation:anim6 2s linear forwards;
+		  }
+
+		  svg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+		  }
+		  @keyframes anim1{
+			100%{
+				stroke-dashoffset: 70.8;
+			}
+		  }
+		  @keyframes anim2{
+			100%{
+				stroke-dashoffset: 94.4;
+			}
+		  }
+		  @keyframes anim3{
+			100%{
+				stroke-dashoffset: 47.2;
+			}
+		  }
+		  @keyframes anim4{
+			100%{
+				stroke-dashoffset: 188.8;
+			}
+		  }
+		  @keyframes anim5{
+			100%{
+				stroke-dashoffset: 188.8;
+			}
+		  }
+		  @keyframes anim6{
+			100%{
+				stroke-dashoffset: 165.2;
+			}
 		  }
