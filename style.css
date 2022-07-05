@@ -30,9 +30,7 @@
 			justify-content: center;
 		}
 		.hi{
-			background-image: url("https://media.gettyimages.com/videos/soft-white-background-video-id1132438176?s=640x640");
-			background-repeat: no-repeat;
-			background-size: cover;
+			background-color:rgba(165, 163, 163, 0.233);
 		}
 		.test{
 			border:1px solid;
